@@ -44,7 +44,7 @@ int main() {
 
 
     //Saída de dados Carta 1
-    printf("Estado: %c \n", ESTADO1);
+    printf("\nEstado: %c \n", ESTADO1);
     printf("Código: %s \n", CODIGO1);
     printf("Nome da Cidade: %s \n", NOME1);
     printf("População: %d \n", POPULACAO1);
@@ -54,7 +54,7 @@ int main() {
 
 
     //entrada de dados Carta 2
-    printf("Cadastro da Carta2 \n");
+    printf("\nCadastro da Carta2 \n");
 	printf("Estado(letra de A a H): \n");
 	scanf(" %c", &ESTADO2);
 
@@ -75,6 +75,15 @@ int main() {
 
     printf("Numero de Pontos Turisticos: \n");
     scanf("%d", &NUMERO_DE_PONTOS_TURISTICOS2);
+
+//Saída de dados Carta 2
+    printf("\nEstado: %c \n", ESTADO2);
+    printf("Código: %s \n", CODIGO2);
+    printf("Nome da Cidade: %s \n", NOME2);
+    printf("População: %d \n", POPULACAO2);
+    printf("Área: %f \n", AREA2);
+    printf("PIB: %f \n", PIB2);
+    printf("Numero de Pontos Turisticos: %d\n", NUMERO_DE_PONTOS_TURISTICOS2);
 
     return 0;
 }
